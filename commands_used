@@ -1,2 +1,4 @@
 2 2.1: db.details.find()
   2.2: db.details.aggregate()
+
+3.db.details.find({},{"name":1,"salary":1,"Marital Status":1,"company":1})
