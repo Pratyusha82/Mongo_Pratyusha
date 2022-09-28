@@ -2,3 +2,5 @@
   2.2: db.details.aggregate()
 
 3.db.details.find({},{"name":1,"salary":1,"Marital Status":1,"company":1})
+
+4.db.details.find({"country":"Norway"},{"name":1})
